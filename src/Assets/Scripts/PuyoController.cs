@@ -36,6 +36,7 @@ public class PuyoController : MonoBehaviour
     };
 
     [SerializeField] Renderer my_renderer = default!; 
+
     //自分自身の色を変えられるように、Rendererを保持する
     //[SerializeField]でエディターで指定する形にする
     //設定が忘れが内容に「=defeult!」で非null指定しておく
